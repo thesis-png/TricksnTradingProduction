@@ -138,11 +138,11 @@ export function Navbar() {
                 className="flex items-center group focus:outline-none"
               >
                 <Image
-                  src="/tricks-trading-logo.png"
-                  alt="Tricks & Trading Logo"
+                  src="/zovo-gateway-logo-transparent.png"
+                  alt="ZOVO Gateway Logo"
                   width={220}
                   height={80}
-                  className="h-auto w-[180px] md:w-[220px] object-contain group-hover:scale-102 transition-transform duration-200"
+                  className="h-12 md:h-14 w-auto max-w-[210px] object-contain group-hover:scale-102 transition-transform duration-200"
                   priority
                 />
               </a>
@@ -233,11 +233,11 @@ export function Navbar() {
               className="flex items-center group focus:outline-none min-w-0"
             >
               <Image
-                src="/tricks-trading-logo.png"
-                alt="Tricks & Trading Logo"
+                src="/zovo-gateway-logo-transparent.png"
+                alt="ZOVO Gateway Logo"
                 width={150}
                 height={55}
-                className="h-auto w-[130px] xs:w-[150px] object-contain group-hover:scale-102 transition-transform duration-200"
+                className="h-9 xs:h-10 w-auto max-w-[150px] object-contain group-hover:scale-102 transition-transform duration-200"
                 priority
               />
             </a>

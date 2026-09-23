@@ -38,7 +38,7 @@ export function TestimonialsSection() {
             href={testimonialVideoUrl}
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Watch TricksNTrading testimonial video on YouTube"
+            aria-label="Watch ZOVO Gateway testimonial video on YouTube"
             className="group block bg-[#101010] rounded-[2rem] border border-[rgba(255,255,255,0.07)] p-4 md:p-6 hover:border-[rgba(184,155,114,0.28)] hover:-translate-y-1.5 transition-all duration-300 relative overflow-hidden focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#B89B72]"
           >
             {/* Visual Thumbnail Area */}

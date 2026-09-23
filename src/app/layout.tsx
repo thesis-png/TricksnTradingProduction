@@ -50,8 +50,8 @@ const malayalamFont = Noto_Sans_Malayalam({
 
 // Next.js Metadata API configuration for high-end SEO indexing
 export const metadata: Metadata = {
-  title: "TricksNTrading | Overseas Recruitment & Manpower Consultancy",
-  description: "TricksNTrading provides premium overseas job placement, skilled manpower supply, work permit assistance, study visa support, and global career consulting for job seekers and employers.",
+  title: "ZOVO Gateway | Overseas Recruitment & Manpower Consultancy",
+  description: "ZOVO Gateway provides premium overseas job placement, skilled manpower supply, work permit assistance, study visa support, and global career consulting for job seekers and employers.",
   keywords: [
     "overseas recruitment agency",
     "manpower consultancy",
@@ -68,7 +68,7 @@ export const metadata: Metadata = {
     "Europe visa agency"
   ],
   alternates: {
-    canonical: "https://www.tricksntrading.com"
+    canonical: "https://www.zovogateway.com"
   },
   robots: {
     index: true,
@@ -82,16 +82,16 @@ export const metadata: Metadata = {
     }
   },
   openGraph: {
-    title: "TricksNTrading | Overseas Recruitment & Manpower Consultancy",
+    title: "ZOVO Gateway | Overseas Recruitment & Manpower Consultancy",
     description: "Verified global career placements and reliable bulk manpower supply across GCC, Europe, and North America.",
-    url: "https://www.tricksntrading.com",
-    siteName: "TricksNTrading",
+    url: "https://www.zovogateway.com",
+    siteName: "ZOVO Gateway",
     images: [
       {
-        url: "https://www.tricksntrading.com/og-image.jpg",
+        url: "https://www.zovogateway.com/zovo-gateway-logo-transparent.png",
         width: 1200,
         height: 630,
-        alt: "TricksNTrading Overseas Recruitment Network"
+        alt: "ZOVO Gateway Overseas Recruitment Network"
       }
     ],
     locale: "en_US",
@@ -99,9 +99,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "TricksNTrading | Overseas Recruitment & Manpower Consultancy",
+    title: "ZOVO Gateway | Overseas Recruitment & Manpower Consultancy",
     description: "Helping skilled professionals find global opportunities and helping employers hire certified workforce worldwide.",
-    images: ["https://www.tricksntrading.com/og-image.jpg"]
+    images: ["https://www.zovogateway.com/zovo-gateway-logo-transparent.png"]
   }
 };
 
@@ -114,24 +114,24 @@ export default function RootLayout({
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "EmploymentAgency",
-    "name": "TricksNTrading",
-    "image": "https://www.tricksntrading.com/og-image.jpg",
+    "name": "ZOVO Gateway",
+    "image": "https://www.zovogateway.com/zovo-gateway-logo-transparent.png",
     "description": "Overseas recruitment agency supplying skilled technical manpower and work permit visa support.",
-    "@id": "https://www.tricksntrading.com/#agency",
-    "url": "https://www.tricksntrading.com",
+    "@id": "https://www.zovogateway.com/#agency",
+    "url": "https://www.zovogateway.com",
     "telephone": CONTACT_INFO.phone,
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": CONTACT_INFO.address.split(",")[0],
-      "addressLocality": "Navi Mumbai",
-      "addressRegion": "Maharashtra",
-      "postalCode": "400614",
+      "streetAddress": "113, Podder Point, Tower B, 3rd Floor, Nexus Works, Park Street",
+      "addressLocality": "Kolkata",
+      "addressRegion": "West Bengal",
+      "postalCode": "700016",
       "addressCountry": "IN"
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 19.028387,
-      "longitude": 73.016335
+      "latitude": 22.5516,
+      "longitude": 88.3518
     },
     "openingHoursSpecification": {
       "@type": "OpeningHoursSpecification",
@@ -147,9 +147,9 @@ export default function RootLayout({
       "closes": "18:30"
     },
     "sameAs": [
-      "https://www.facebook.com/tricksntrading",
-      "https://www.linkedin.com/company/tricksntrading",
-      "https://www.instagram.com/tricksntrading"
+      "https://www.facebook.com/zovogateway",
+      "https://www.linkedin.com/company/zovogateway",
+      "https://www.instagram.com/zovogateway"
     ]
   };
 

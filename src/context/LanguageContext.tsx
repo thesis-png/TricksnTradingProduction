@@ -27,7 +27,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    const saved = (localStorage.getItem("tricksntrading_locale") || localStorage.getItem("trendy_locale")) as Locale;
+    const saved = (localStorage.getItem("zovogateway_locale") || localStorage.getItem("tricksntrading_locale") || localStorage.getItem("trendy_locale")) as Locale;
     setTimeout(() => {
       if (saved && MESSAGES_MAP[saved]) {
         setLocaleState(saved);
@@ -37,7 +37,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   const setLocale = (newLocale: Locale) => {
-    localStorage.setItem("tricksntrading_locale", newLocale);
+    localStorage.setItem("zovogateway_locale", newLocale);
     setLocaleState(newLocale);
     setSessionLocale(newLocale);
     window.dispatchEvent(new Event("locale-changed"));

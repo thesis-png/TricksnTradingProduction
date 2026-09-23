@@ -179,13 +179,13 @@ export default function CountryJobsPage() {
 
   // Custom WhatsApp link pre-filled with dynamic job role inquiry
   const getJobWhatsAppUrl = (role: string) => {
-    const text = `Hi TricksNTrading, I want to apply for the ${role} job in ${displayCountryName}. Requisition ID is active. Please guide me on work permit requirements.`;
+    const text = `Hi ZOVO Gateway, I want to apply for the ${role} job in ${displayCountryName}. Requisition ID is active. Please guide me on work permit requirements.`;
     return `https://wa.me/${CONTACT_INFO.phoneRaw}?text=${encodeURIComponent(text)}`;
   };
 
   // General country-level WhatsApp inquiry
   const generalWhatsAppUrl = `https://wa.me/${CONTACT_INFO.phoneRaw}?text=${encodeURIComponent(
-    `Hi TricksNTrading, I want to know about active job openings and immigration options in ${displayCountryName}.`
+    `Hi ZOVO Gateway, I want to know about active job openings and immigration options in ${displayCountryName}.`
   )}`;
 
   return (

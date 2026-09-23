@@ -132,8 +132,8 @@ export function ContactSection() {
               allowFullScreen={true}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="TricksNTrading Mumbai Office Coordinates"
-              aria-label="Google Map location showing TricksNTrading Office"
+              title="ZOVO Gateway Kolkata Office Coordinates"
+              aria-label="Google Map location showing ZOVO Gateway Office"
             />
           </motion.div>
         </div>

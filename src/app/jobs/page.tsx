@@ -264,12 +264,12 @@ export default function AllJobsPage() {
 
   // Custom WhatsApp link pre-filled with dynamic job role inquiry
   const getJobWhatsAppUrl = (role: string, countryName: string) => {
-    const text = `Hi TricksNTrading, I want to apply for the ${role} job in ${countryName}. Requisition ID is active. Please guide me on work permit requirements.`;
+    const text = `Hi ZOVO Gateway, I want to apply for the ${role} job in ${countryName}. Requisition ID is active. Please guide me on work permit requirements.`;
     return `https://wa.me/${CONTACT_INFO.phoneRaw}?text=${encodeURIComponent(text)}`;
   };
 
   // General help WhatsApp link
-  const generalHelpWhatsAppUrl = `https://wa.me/919874259915?text=Hi%20TricksNTrading%2C%20I%20need%20help%20finding%20jobs.`;
+  const generalHelpWhatsAppUrl = `https://wa.me/919874259915?text=Hi%20ZOVO%20Gateway%2C%20I%20need%20help%20finding%20jobs.`;
 
   return (
     <>

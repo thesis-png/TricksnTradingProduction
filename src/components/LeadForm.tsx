@@ -376,7 +376,7 @@ export function LeadForm() {
                       {...employerForm.register("consent")}
                     />
                     <span className="text-sm text-[#A3A3A3] leading-snug">
-                      I agree to be contacted by TricksNTrading regarding this inquiry. <span className="text-red-500">*</span>
+                      I agree to be contacted by ZOVO Gateway regarding this inquiry. <span className="text-red-500">*</span>
                     </span>
                   </label>
                   {employerForm.formState.errors.consent && (

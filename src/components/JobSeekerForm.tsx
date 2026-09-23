@@ -186,7 +186,7 @@ export function JobSeekerForm({
 
   const getSuccessWhatsAppLink = (appId: string) => {
     const phone = "919874259915";
-    const text = `Hi TricksNTrading, I submitted my application. My Application ID is ${appId.trim().replace(/\s+/g, "")}. I want to continue the process.`;
+    const text = `Hi ZOVO Gateway, I submitted my application. My Application ID is ${appId.trim().replace(/\s+/g, "")}. I want to continue the process.`;
     return `https://wa.me/${phone}?text=${encodeURIComponent(text)}`;
   };
 
@@ -426,7 +426,7 @@ export function JobSeekerForm({
               </p>
               <a
                 href={`https://wa.me/919874259915?text=${encodeURIComponent(
-                  `Hi TricksNTrading, I submitted my application. My Application ID is ${cleanId}. I want to complete the payment.`
+                  `Hi ZOVO Gateway, I submitted my application. My Application ID is ${cleanId}. I want to complete the payment.`
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -710,7 +710,7 @@ export function JobSeekerForm({
             {...seekerForm.register("consent")}
           />
           <span className="text-sm text-[#B8B2A7] leading-snug">
-            I agree to be contacted by TricksNTrading Overseas regarding job opportunities. <span className="text-red-500">*</span>
+            I agree to be contacted by ZOVO Gateway Overseas regarding job opportunities. <span className="text-red-500">*</span>
           </span>
         </label>
         {seekerForm.formState.errors.consent && (

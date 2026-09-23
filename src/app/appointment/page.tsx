@@ -317,7 +317,7 @@ function AppointmentBookingFlow() {
     const cleanApptId = appointmentId.trim().replace(/\s+/g, "");
     const cleanAppId = appId?.trim().replace(/\s+/g, "");
     
-    let text = `Hi TricksNTrading, I booked an appointment. My Appointment ID is ${cleanApptId}.`;
+    let text = `Hi ZOVO Gateway, I booked an appointment. My Appointment ID is ${cleanApptId}.`;
     if (cleanAppId) {
       text += ` My Application ID is ${cleanAppId}.`;
     }
@@ -701,7 +701,7 @@ function AppointmentBookingFlow() {
             <span>{isSubmitting ? t("bookingText") : t("bookBtn")}</span>
           </Button>
           <a
-            href="https://wa.me/919874259915?text=Hi%20TricksNTrading%2C%20I%20want%20to%20book%20an%20appointment."
+            href="https://wa.me/919874259915?text=Hi%20ZOVO%20Gateway%2C%20I%20want%20to%20book%20an%20appointment."
             target="_blank"
             rel="noopener noreferrer"
             className="w-full flex items-center justify-center gap-2 h-12 bg-[#10B981] hover:bg-[#059669] text-white rounded-xl font-bold text-sm transition-all active:scale-[0.98] cursor-pointer font-sans"

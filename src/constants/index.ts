@@ -29,11 +29,11 @@ export interface Step {
 export const CONTACT_INFO = {
   phone: "+91 98742 59915",
   phoneRaw: "+919874259915",
-  email: "info@tricksntrading.co.in",
-  address: "Unit No. 825, Lodha Signet 1\nPremier Colony Ground, Kalyan\nThane, Maharashtra - 421204",
-  whatsappUrl: "https://wa.me/919874259915?text=Hi%20TricksNTrading%2C%20I%20want%20to%20know%20more%20about%20overseas%20jobs.",
+  email: "info@zovogateway.com",
+  address: "113, Podder Point, Tower B, 3rd Floor\nNexus Works, Park Street\nKolkata, West Bengal - 700016",
+  whatsappUrl: "https://wa.me/919874259915?text=Hi%20ZOVO%20Gateway%2C%20I%20want%20to%20know%20more%20about%20overseas%20jobs.",
   whatsappNumber: "+91 98742 59915",
-  mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.9669647226685!2d73.0653066750734!3d19.15787688206972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7bf7b6c7a7b87%3A0x6b8d4f4e2c8a1e5!2sLodha%20Signet!5e0!3m2!1sen!2sin!4v1717436000000!5m2!1sen!2sin"
+  mapEmbedUrl: "https://maps.google.com/maps?q=113+Podder+Point+Park+Street+Kolkata+West+Bengal+700016&t=&z=16&ie=UTF8&iwloc=&output=embed"
 };
 
 export const COUNTRIES: Country[] = [

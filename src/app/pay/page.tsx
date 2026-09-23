@@ -185,13 +185,13 @@ function PaymentFlow() {
   // ----------------------------------------------------------------
   const getPaymentWhatsAppLink = (appId: string) => {
     const phone = "919874259915";
-    const text = `Hi TricksNTrading, I want help with payment for my Application ID ${appId}.`;
+    const text = `Hi ZOVO Gateway, I want help with payment for my Application ID ${appId}.`;
     return `https://wa.me/${phone}?text=${encodeURIComponent(text)}`;
   };
 
   const getHelpWhatsAppLink = () => {
     const phone = "919874259915";
-    const text = "Hi TricksNTrading, I need help with my application payment process.";
+    const text = "Hi ZOVO Gateway, I need help with my application payment process.";
     return `https://wa.me/${phone}?text=${encodeURIComponent(text)}`;
   };
 

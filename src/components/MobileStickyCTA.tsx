@@ -8,15 +8,15 @@ import { CONTACT_INFO } from "@/constants";
 
 export function getWhatsAppLink(locale: string) {
   const phone = "919874259915";
-  let text = "Hi TricksNTrading, I want to know more about overseas jobs";
+  let text = "Hi ZOVO Gateway, I want to know more about overseas jobs";
   if (locale === "hi") {
-    text = "नमस्ते TricksNTrading, मुझे विदेश नौकरी के बारे में जानकारी चाहिए। मेरा नाम: ___, जिला: ___, काम: ___, अनुभव: ___";
+    text = "नमस्ते ZOVO Gateway, मुझे विदेश नौकरी के बारे में जानकारी चाहिए। मेरा नाम: ___, जिला: ___, काम: ___, अनुभव: ___";
   } else if (locale === "bn") {
-    text = "নমস্কার TricksNTrading, আমি বিদেশে চাকরির বিষয়ে জানতে চাই। আমার নাম: ___, জেলা: ___, কাজ: ___, অভিজ্ঞতা: ___";
+    text = "নমস্কার ZOVO Gateway, আমি বিদেশে চাকরির বিষয়ে জানতে চাই। আমার নাম: ___, জেলা: ___, কাজ: ___, অভিজ্ঞতা: ___";
   } else if (locale === "ta") {
-    text = "வணக்கம் TricksNTrading, வெளிநாட்டு வேலை பற்றி தகவல் வேண்டும். என் பெயர்: ___, மாவட்டம்: ___, வேலை: ___, அனுபவம்: ___";
+    text = "வணக்கம் ZOVO Gateway, வெளிநாட்டு வேலை பற்றி தகவல் வேண்டும். என் பெயர்: ___, மாவட்டம்: ___, வேலை: ___, அனுபவம்: ___";
   } else if (locale === "ml") {
-    text = "നമസ്കാരം TricksNTrading, വിദേശ ജോലിയെക്കുറിച്ച് അറിയണം. എന്റെ പേര്: ___, ജില്ല: ___, ജോലി: ___, അനുഭവം: ___";
+    text = "നമസ്കാരം ZOVO Gateway, വിദേശ ജോലിയെക്കുറിച്ച് അറിയണം. എന്റെ പേര്: ___, ജില്ല: ___, ജോലി: ___, അനുഭവം: ___";
   }
   return `https://wa.me/${phone}?text=${encodeURIComponent(text)}`;
 }

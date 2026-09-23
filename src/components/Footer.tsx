@@ -62,11 +62,11 @@ export function Footer() {
           <div className="lg:col-span-4 space-y-6">
             <a href="#home" onClick={(e) => handleScrollTo(e, "#home")} className="flex items-center group focus:outline-none">
               <Image
-                src="/tricks-trading-logo.png"
-                alt="Tricks & Trading Logo"
+                src="/zovo-gateway-logo-transparent.png"
+                alt="ZOVO Gateway Logo"
                 width={180}
                 height={65}
-                className="h-auto w-[160px] md:w-[180px] object-contain group-hover:scale-102 transition-transform duration-200"
+                className="h-12 md:h-14 w-auto object-contain group-hover:scale-102 transition-transform duration-200"
               />
             </a>
             <p className="text-sm text-[#B8B2A7] font-sans leading-relaxed max-w-sm">
@@ -166,7 +166,7 @@ export function Footer() {
         {/* Bottom Credits / Footer */}
         <div className="flex flex-col sm:flex-row items-center justify-between pt-8 text-xs text-[#7C756A] font-sans gap-4">
           <div>
-            © {new Date().getFullYear()} TricksNTrading. {tFooter("rights")}
+            © {new Date().getFullYear()} ZOVO Gateway. {tFooter("rights")}
           </div>
           <div className="flex gap-6">
             <a href="#job-seeker" onClick={handleApplyNow} className="hover:text-[#B8B2A7]">Terms of Service</a>
